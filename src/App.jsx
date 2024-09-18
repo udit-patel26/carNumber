@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className='w-full min-h-[100vh] flex justify-center items-center'>
-      <form className="max-w-sm mx-auto sm:p-10 border rounded-lg border-gray-600" onSubmit={handleSubmit}> 
+      <form className="max-w-sm mx-auto sm:p-10 p-10 border rounded-lg border-gray-600" onSubmit={handleSubmit}> 
         <div className="mb-5">
           <label htmlFor="visitor" className="block mb-2 text-xl font-medium text-gray-900 dark:text-white ">
             Visitor Checkin
