@@ -25,9 +25,9 @@ function App() {
 
   return (
     <div className='w-full min-h-[100vh] flex justify-center items-center'>
-      <form className="max-w-sm mx-auto sm:p-10" onSubmit={handleSubmit}>
+      <form className="max-w-sm mx-auto sm:p-10 border rounded-lg border-gray-600" onSubmit={handleSubmit}> 
         <div className="mb-5">
-          <label htmlFor="visitor" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          <label htmlFor="visitor" className="block mb-2 text-xl font-medium text-gray-900 dark:text-white ">
             Visitor Checkin
           </label>
           <input
@@ -42,7 +42,7 @@ function App() {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="phoneNumber" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          <label htmlFor="phoneNumber" className="block mb-2 text-xl font-medium text-gray-900 dark:text-white ">
             Phone Number
           </label>
           <input
@@ -57,7 +57,7 @@ function App() {
           />
         </div>
         <div className="flex mb-4 gap-4">
-          <label>Allowed Entry</label>
+          <label className='text-xl font-medium'>Allowed Entry</label>
           <div className="flex items-center">
             <input
               id="Yes"
